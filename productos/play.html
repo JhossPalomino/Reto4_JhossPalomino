@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/productos/play.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!--navegacion-->
+    <header>
+        <img src="/imagenes/10680683.png" alt="" class="logo">
+        <nav>
+            <a href="/index.html">Inicio</a>
+            <a href="/productos.html">Tienda</a>
+            <a href="#contacto">Contacto</a>
+            <a href="/carrito.html">Carrito</a>
+        </nav>
+    </header>
+
+    <br>
+    <br>
+    <div class="product-container">
+        <h1>Detalles del Producto</h1>
+        <div class="carousel">
+            <input type="radio" name="carousel" id="image1" checked>
+            <input type="radio" name="carousel" id="image2">
+            <input type="radio" name="carousel" id="image3">
+    
+            <div class="carousel-label" for="image1">
+                <img src="/imagenes/playstation.webp" alt="Producto 1" class="slide slide1">
+                <img src="/imagenes/playstation.webp" alt="Producto 2" class="slide slide2">
+                <img src="/imagenes/playstation.webp" alt="Producto 3" class="slide slide3">
+            </div>
+        </div>
+    
+        <div class="product-info">
+            <div class="product-name">PlayStation5</div>
+            <div class="product-price">$549.99</div>
+            <div class="product-description">La PlayStation 5 (PS5) es la consola de videojuegos de sobremesa de Sony, lanzada en noviembre de 2020.</div>
+            <div class="quantity-selector">
+                Cantidad:
+                <input type="number" value="1" min="1" style="width: 50px;">
+            </div>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+    
+        <div class="tabs">
+            <div class="tab-buttons">
+                <label for="tab2" class="tab-button">Detalles</label>
+            </div>
+            <input type="radio" name="tabs" id="tab2" class="tab-label">
+    
+            <div class="tab-content">
+                <p>Capacidad: 1 TB
+                    Incluye control.
+                    Resolución de 3840 px x 2160 px.
+                    Memoria RAM de 16GB.
+                    Cuenta con: 2 pies de soporte horizontal.
+                    La duración de la batería depende del uso que se le dé al producto.Capacidad: 1 TB
+                    Incluye control.
+                    Resolución de 3840 px x 2160 px.
+                    Memoria RAM de 16GB.
+                    Cuenta con: 2 pies de soporte horizontal.
+                    La duración de la batería depende del uso que se le dé al producto.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
